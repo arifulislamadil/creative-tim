@@ -1,0 +1,21 @@
+.overview-body{
+    padding: 20px;
+}
+
+.overview-body div{
+    border-left: 2px solid blue;
+    margin-left: 5px;
+}
+.overview-body h3{
+    font-weight: 200;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.overview-body span{
+    margin-top: 15px;
+    font-weight: 200;
+    margin-left: 20px;
+    font-size: 12px;
+}

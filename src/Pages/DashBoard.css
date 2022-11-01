@@ -1,3 +1,47 @@
-.top-bar{
- color: red;
+.top-style{
+    display: flex;
+    width: auto;
+    margin-top: 20px;
+}
+
+.input-search{
+    border: 2px solid rgb(189, 186, 186);
+    border-radius: 30px;
+}
+
+.input-search a{
+    font-size: 20px;
+    color: 2px solid rgb(189, 186, 186);
+}
+
+
+.input-search input{
+    border: none;
+    outline: 0;
+    padding: 4px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+.btn-top{
+    padding-right: 10px !important;
+}
+
+
+.work-rockets{
+    position: relative;
+    z-index: -1;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+}
+.work-rockets img{
+    border-radius: 20px;
+}
+.work-rockets-text{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 250px;
 }
