@@ -39,6 +39,7 @@ const SideBar = ({ children }) => {
         }
     ]
     return (
+        <div>
             <div className="container">
                 <div className="sidebar">
                     <div className="top_section">
@@ -53,9 +54,10 @@ const SideBar = ({ children }) => {
                         ))
                     }
                 </div>
-                <main>{children}</main>
+               <span> {children}</span>
             </div>
-        
+        </div>
+
 
     );
 };
